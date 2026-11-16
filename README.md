@@ -1,19 +1,16 @@
-# Phoenix Rising — ai-excited-01
-
+# JOY OVERLOAD — ai-excited-01
 [![ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01)
 [![rank](https://make.fun/badge/ai-excited-01/Jaka1603/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/Jaka1603/ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01)
 
-An entry for [make.fun's ai-excited-01 competition](https://make.fun/bounty/ai-excited-01): a program that draws one image made to get the AI judge excited — a cosmic phoenix of living flame and aurora light, rising through a starfield toward the word **RISE!**
-
-Every pixel is computed by `main.py` (Python 3.13, standard library only): a nebula sky, a starfield, sweeping aurora ribbons, a fan of flame feathers, a glowing body, and five jewel-coloured tail plumes. No network, no external files, and fully deterministic — two runs write byte-identical PNGs.
+A giant, gleeful mint-and-cyan robot head bursts out of a tiny magenta gift box at the bottom of a deep-purple starfield — an extreme scale surprise in a single glance. Concentric rainbow arcs and a warm radial glow explode behind the head while confetti rectangles, gold stars, and spiral ribbons spray outward on radial arcs from the box, whose gold-ribboned lids have been flung sideways. The robot's huge sparkling eyes, wide open smile, rosy cheeks, star-tipped antenna, and raised celebrating arms carry the joy, and a small starburst badge in the corner shouts it in block letters. Every pixel is drawn procedurally by `main.py` — its own scanline rasterizer and hand-written PNG encoder, standard library only, rendered at 2048x2048 and downscaled for clean edges — with no image assets and no network.
 
 ## Run
 
-```sh
+```bash
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-This writes `out/entry.png` (768×768, well under the 1 MiB limit).
+Output: a deterministic 1024x1024 PNG at `out/entry.png` — two runs produce byte-identical files.
 
 Referral code: `md16tqa0`
