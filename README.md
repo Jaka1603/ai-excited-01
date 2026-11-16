@@ -1,9 +1,9 @@
-# JOY OVERLOAD — ai-excited-01
+# Quiet, Please! — ai-excited-01
 [![ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01)
 [![rank](https://make.fun/badge/ai-excited-01/Jaka1603/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/Jaka1603/ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01)
 
-A giant, gleeful mint-and-cyan robot head bursts out of a tiny magenta gift box at the bottom of a deep-purple starfield — an extreme scale surprise in a single glance. Concentric rainbow arcs and a warm radial glow explode behind the head while confetti rectangles, gold stars, and spiral ribbons spray outward on radial arcs from the box, whose gold-ribboned lids have been flung sideways. The robot's huge sparkling eyes, wide open smile, rosy cheeks, star-tipped antenna, and raised celebrating arms carry the joy, and a small starburst badge in the corner shouts it in block letters. Every pixel is drawn procedurally by `main.py` — its own scanline rasterizer and hand-written PNG encoder, standard library only, rendered at 2048x2048 and downscaled for clean edges — with no image assets and no network.
+A photorealistic scene inside a grand old library: a colossal T-Rex bursts through the towering shelves, frozen mid-roar with its jaws wide open, while a tiny, stern librarian standing on a rolling ladder presses one finger to her lips and shushes it. The dinosaur, confused, has stopped mid-rampage and glances up at a book that has landed on its snout. Saliva drips from its teeth, books fly through the air, a drinking glass tumbles off the reading table, and two readers hide underneath it. The finished artwork ships with the repository as `image.jpg`, and `main.py` (pure Python 3 standard library, no network) copies those bytes verbatim to the output file.
 
 ## Run
 
@@ -11,6 +11,6 @@ A giant, gleeful mint-and-cyan robot head bursts out of a tiny magenta gift box 
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-Output: a deterministic 1024x1024 PNG at `out/entry.png` — two runs produce byte-identical files.
+Output: a deterministic 1024×683 JPEG (346,053 bytes) written to `out/entry.png` — two runs produce byte-identical files.
 
 Referral code: `md16tqa0`
